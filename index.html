@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Android/imagens/favicon-fabricio.ico" type="image/x-icon">
+    <title>Fabricio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgba(65, 64, 64, 0.887);
+        }
+        header {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.771);
+            color: white;
+            text-align: center;
+        }
+       
+        section.android {
+            background-color: rgb(6, 175, 20);
+            border-radius: 10px;
+            padding-top: 10px;
+            color: white;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        a {
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        span{
+            border-radius: 7px;
+            margin: auto;
+            display: block;
+            height: 25px;
+            width: 200px;
+            background-color: rgb(26, 219, 94);
+        }
+
+        section.android video {
+            display: flex;
+            margin: auto;
+            border-radius: 10px;
+            max-width: 500px;
+        }
+        section.cortel {
+            height: 240px;
+            background-image: url(Cordel/imagens/cordel.jpg);
+            background-position: center top;
+            background-size: cover;
+            box-shadow: inset 2px 3px 20px 5px black;
+            text-align: center;        
+
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Fabrício Almeida</h1>
+    </header>
+    <main>
+        <section class="android">
+            <a href="Android/android.html">
+                <video src="Android/videos/evolution-Android.mp4" autoplay muted></video>
+            </a>
+            <span class="android">
+                <a href="Android/android.html"><p>Como surgio o Android</p></a>
+            </span>
+        </section>
+        <section class="cortel">
+            <a href="Cordel/index.html"><p> Poesia Cortel</p></a>
+        </section>
+    </main>
+</body>
+</html>
