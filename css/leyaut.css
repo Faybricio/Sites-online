@@ -21,7 +21,7 @@ body {
 }
 
 main {
-    padding-top: 30px;
+    padding-top: 10vh;
 }
 
 
@@ -31,7 +31,7 @@ header {
 }
   
 .baner {
-    padding: 40px;
+    padding-top: 5vh;
     line-height: 1em;
     font-size: 4vh;
     text-align: center;
@@ -66,25 +66,54 @@ header {
     border-radius: 10px;
     margin: auto;
     text-align: center;
-    font-size: 2vh;
+    font-size: 2vh;    
+}
+
+section a {
+    text-decoration: none;
+}
+
+section a:hover, section a:hover {
+    text-decoration: underline;
+}
+.android p {
+    border-radius: 5px;
+    margin: auto;
+    width: 30vh;
+    background-color: var(--verd-c);
+}
+
+.cordel p{
+    border-radius: 5px;
+    margin: auto;
+    width: 30vh;
+    color: #000000;
+    background-color: rgb(207, 153, 207);
+}
+
+.android p:hover{
+    background-color: #107c10;
+}
+
+.cordel p:hover {
+    background-color: rgb(187, 104, 187);
 }
 
 .android {
-    margin-bottom: 30px;
-    padding-top: 20px;
+    margin-bottom: 10vh;
+    padding-top: 4vh;
     background-color: #6aee63ec;
 }
 
 .video {
-    
-    border-radius: 10px;
+    border-radius: 5px;
     max-width: 35vh;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.194);
 }
 
 .cordel {
     background-image: linear-gradient(to bottom, rgb(238, 209, 47), rgb(134, 125, 2));
-    padding-top: 10px;
+    padding-top: 4vh;
 }
 
 span img {
@@ -93,9 +122,10 @@ span img {
 
 footer {
     background-color:  #2e2f2e;
-    margin-top: 100px;
+    margin-top: 30vh;
     object-position: bottom;
     border-radius: 4px;
     padding: 5px;
     text-align: center;
+    font-size: 2vh;
 }
