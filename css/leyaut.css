@@ -1,0 +1,101 @@
+
+
+:root {
+    --verd-c: #77bb44;
+    --verd-m: #2ca243;
+    --verd-es: #107c10;
+    --cinza: #474747;
+    --black: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;   
+    color: white;
+    
+}
+
+body {
+    background: var(--cinza);
+}
+
+main {
+    padding-top: 30px;
+}
+
+
+header {
+    background-image: linear-gradient(to bottom, rgb(68, 146, 76), rgb(60, 133, 68));
+    border-radius: 0px 0px 3px 3px;
+}
+  
+.baner {
+    padding: 40px;
+    line-height: 1em;
+    font-size: 4vh;
+    text-align: center;
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.664);
+}
+
+.baner > h1:nth-child(1) {
+    color: var(--verd-c);
+}
+
+.baner h1:nth-child(2) {
+    color: var(--verd-m);
+}
+
+.baner h3 {
+    line-height: 1.3em;
+    color: #a2eaa2;
+}
+
+
+.introdução {
+    text-align: center;
+    font-size: 2vh;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px;
+   
+}
+
+.cordel, .android {
+    height: 25vh;
+    width: 60vh;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.android {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    background-color: #6aee63ec;
+}
+
+.video {
+    
+    border-radius: 10px;
+    max-width: 35vh;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.194);
+}
+
+.cordel {
+    background-image: linear-gradient(to bottom, rgb(238, 209, 47), rgb(134, 125, 2));
+    padding-top: 10px;
+}
+
+span img {
+    height: 21vh;
+}
+
+footer {
+    background-color:  #2e2f2e;
+    margin-top: 100px;
+    object-position: bottom;
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+}
