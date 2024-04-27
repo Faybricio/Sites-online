@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-
+@charset "UTF-8";
 :root {
     --verd-c: #77bb44;
     --verd-m: #2ca243;
@@ -15,10 +16,16 @@
     color: white;
     
 }
-
 body {
-    background: var(--cinza);
-}
+    background-color: var(--cinza);
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s linear;
+  }
+  
+  body.dark {
+    background: white;
+  }
 
 main {
     padding-top: 10vh;
@@ -28,6 +35,7 @@ main {
 header {
     background-image: linear-gradient(to bottom, rgb(68, 146, 76), rgb(60, 133, 68));
     border-radius: 0px 0px 3px 3px;
+    padding-left: 25px;
 }
   
 .baner {
@@ -51,6 +59,48 @@ header {
     color: #a2eaa2;
 }
 
+.checkbox {
+    opacity: 0;
+    position: absolute; 
+  }
+  
+  .label {
+    background-color: #003404;
+    border-radius:  30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+    height: 16px;
+    width: 39px;
+    transform: scale(1.5);
+  }
+  
+  .label .ball {
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+  }
+ 
+  .checkbox:checked + .label .ball {
+    transform: translateX(24px);
+  }
+  
+  .fa-moon {
+    color: #ffcc00;
+  }
+  
+  .fa-sun {
+    color: #f29900;
+  }
 
 .introdução {
     text-align: center;
